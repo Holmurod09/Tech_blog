@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,29 +16,29 @@
     <meta name="author" content="">
     
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="{% static 'images/apple-touch-icon.png' %}">
     
     <!-- Design fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet"> 
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
 
     <!-- FontAwesome Icons core CSS -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="style.css" rel="stylesheet">
+    <link href="{% static 'style.css' %}" rel="stylesheet">
 
     <!-- Responsive styles for this template -->
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="{% static 'css/responsive.css' %}" rel="stylesheet">
 
     <!-- Colors for this template -->
-    <link href="css/colors.css" rel="stylesheet">
+    <link href="{% static 'css/colors.css' %}" rel="stylesheet">
 
     <!-- Version Tech CSS for this template -->
-    <link href="css/version/tech.css" rel="stylesheet">
+    <link href="{% static 'css/version/tech.css' %}" rel="stylesheet">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -54,7 +55,7 @@
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a class="navbar-brand" href="tech-index.html"><img src="images/version/tech-logo.png" alt=""></a>
+                    <a class="navbar-brand" href="tech-index.html"><img src="{% static 'images/version/tech-logo.png' %}" alt=""></a>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
@@ -81,7 +82,7 @@
                                                                 <div class="blog-box">
                                                                     <div class="post-media">
                                                                         <a href="tech-single.html" title="">
-                                                                            <img src="upload/tech_menu_01.jpg" alt="" class="img-fluid">
+                                                                            <img src="{% static 'upload/tech_menu_01.jpg' %}" alt="" class="img-fluid">
                                                                             <div class="hovereffect">
                                                                             </div><!-- end hover -->
                                                                             <span class="menucat">Science</span>
@@ -97,7 +98,7 @@
                                                                 <div class="blog-box">
                                                                     <div class="post-media">
                                                                         <a href="tech-single.html" title="">
-                                                                            <img src="upload/tech_menu_02.jpg" alt="" class="img-fluid">
+                                                                            <img src="{% static 'upload/tech_menu_02.jpg' %}" alt="" class="img-fluid">
                                                                             <div class="hovereffect">
                                                                             </div><!-- end hover -->
                                                                             <span class="menucat">Science</span>
@@ -113,7 +114,7 @@
                                                                 <div class="blog-box">
                                                                     <div class="post-media">
                                                                         <a href="tech-single.html" title="">
-                                                                            <img src="upload/tech_menu_03.jpg" alt="" class="img-fluid">
+                                                                            <img src="{% static 'upload/tech_menu_03.jpg' %}" alt="" class="img-fluid">
                                                                             <div class="hovereffect">
                                                                             </div><!-- end hover -->
                                                                             <span class="menucat">Science</span>
@@ -129,7 +130,7 @@
                                                                 <div class="blog-box">
                                                                     <div class="post-media">
                                                                         <a href="tech-single.html" title="">
-                                                                            <img src="upload/tech_menu_04.jpg" alt="" class="img-fluid">
+                                                                            <img src="{% static 'upload/tech_menu_04.jpg' %}" alt="" class="img-fluid">
                                                                             <div class="hovereffect">
                                                                             </div><!-- end hover -->
                                                                             <span class="menucat">Science</span>
@@ -148,7 +149,7 @@
                                                                 <div class="blog-box">
                                                                     <div class="post-media">
                                                                         <a href="tech-single.html" title="">
-                                                                            <img src="upload/tech_menu_05.jpg" alt="" class="img-fluid">
+                                                                            <img src="{% static 'upload/tech_menu_05.jpg' %}" alt="" class="img-fluid">
                                                                             <div class="hovereffect">
                                                                             </div><!-- end hover -->
                                                                             <span class="menucat">Technology</span>
@@ -164,7 +165,7 @@
                                                                 <div class="blog-box">
                                                                     <div class="post-media">
                                                                         <a href="tech-single.html" title="">
-                                                                            <img src="upload/tech_menu_06.jpg" alt="" class="img-fluid">
+                                                                            <img src="{% static 'upload/tech_menu_06.jpg' %}" alt="" class="img-fluid">
                                                                             <div class="hovereffect">
                                                                             </div><!-- end hover -->
                                                                             <span class="menucat">Technology</span>
@@ -180,7 +181,7 @@
                                                                 <div class="blog-box">
                                                                     <div class="post-media">
                                                                         <a href="tech-single.html" title="">
-                                                                            <img src="upload/tech_menu_07.jpg" alt="" class="img-fluid">
+                                                                            <img src="{% static 'upload/tech_menu_07.jpg' %}" alt="" class="img-fluid">
                                                                             <div class="hovereffect">
                                                                             </div><!-- end hover -->
                                                                             <span class="menucat">Technology</span>
@@ -196,7 +197,7 @@
                                                                 <div class="blog-box">
                                                                     <div class="post-media">
                                                                         <a href="tech-single.html" title="">
-                                                                            <img src="upload/tech_menu_08.jpg" alt="" class="img-fluid">
+                                                                            <img src="{% static 'upload/tech_menu_08.jpg' %}" alt="" class="img-fluid">
                                                                             <div class="hovereffect">
                                                                             </div><!-- end hover -->
                                                                             <span class="menucat">Technology</span>
@@ -215,7 +216,7 @@
                                                                 <div class="blog-box">
                                                                     <div class="post-media">
                                                                         <a href="tech-single.html" title="">
-                                                                            <img src="upload/tech_menu_09.jpg" alt="" class="img-fluid">
+                                                                            <img src="{% static 'upload/tech_menu_09.jpg' %}" alt="" class="img-fluid">
                                                                             <div class="hovereffect">
                                                                             </div><!-- end hover -->
                                                                             <span class="menucat">Social Media</span>
@@ -231,7 +232,7 @@
                                                                 <div class="blog-box">
                                                                     <div class="post-media">
                                                                         <a href="tech-single.html" title="">
-                                                                            <img src="upload/tech_menu_10.jpg" alt="" class="img-fluid">
+                                                                            <img src="{% static 'upload/tech_menu_10.jpg' %}" alt="" class="img-fluid">
                                                                             <div class="hovereffect">
                                                                             </div><!-- end hover -->
                                                                             <span class="menucat">Social Media</span>
@@ -247,7 +248,7 @@
                                                                 <div class="blog-box">
                                                                     <div class="post-media">
                                                                         <a href="tech-single.html" title="">
-                                                                            <img src="upload/tech_menu_11.jpg" alt="" class="img-fluid">
+                                                                            <img src="{% static 'upload/tech_menu_11.jpg' %}" alt="" class="img-fluid">
                                                                             <div class="hovereffect">
                                                                             </div><!-- end hover -->
                                                                             <span class="menucat">Social Media</span>
@@ -263,7 +264,7 @@
                                                                 <div class="blog-box">
                                                                     <div class="post-media">
                                                                         <a href="tech-single.html" title="">
-                                                                            <img src="upload/tech_menu_12.jpg" alt="" class="img-fluid">
+                                                                            <img src="{% static 'upload/tech_menu_12.jpg' %}" alt="" class="img-fluid">
                                                                             <div class="hovereffect">
                                                                             </div><!-- end hover -->
                                                                             <span class="menucat">Social Media</span>
@@ -282,7 +283,7 @@
                                                                 <div class="blog-box">
                                                                     <div class="post-media">
                                                                         <a href="tech-single.html" title="">
-                                                                            <img src="upload/tech_menu_13.jpg" alt="" class="img-fluid">
+                                                                            <img src="{% static 'upload/tech_menu_13.jpg' %}" alt="" class="img-fluid">
                                                                             <div class="hovereffect">
                                                                             </div><!-- end hover -->
                                                                             <span class="menucat">Car News</span>
@@ -298,7 +299,7 @@
                                                                 <div class="blog-box">
                                                                     <div class="post-media">
                                                                         <a href="tech-single.html" title="">
-                                                                            <img src="upload/tech_menu_14.jpg" alt="" class="img-fluid">
+                                                                            <img src="{% static 'upload/tech_menu_14.jpg' %}" alt="" class="img-fluid">
                                                                             <div class="hovereffect">
                                                                             </div><!-- end hover -->
                                                                             <span class="menucat">Car News</span>
@@ -314,7 +315,7 @@
                                                                 <div class="blog-box">
                                                                     <div class="post-media">
                                                                         <a href="tech-single.html" title="">
-                                                                            <img src="upload/tech_menu_15.jpg" alt="" class="img-fluid">
+                                                                            <img src="{% static 'upload/tech_menu_15.jpg' %}" alt="" class="img-fluid">
                                                                             <div class="hovereffect">
                                                                             </div><!-- end hover -->
                                                                             <span class="menucat">Car News</span>
@@ -330,7 +331,7 @@
                                                                 <div class="blog-box">
                                                                     <div class="post-media">
                                                                         <a href="tech-single.html" title="">
-                                                                            <img src="upload/tech_menu_16.jpg" alt="" class="img-fluid">
+                                                                            <img src="{% static 'upload/tech_menu_16.jpg' %}" alt="" class="img-fluid">
                                                                             <div class="hovereffect">
                                                                             </div><!-- end hover -->
                                                                             <span class="menucat">Car News</span>
@@ -349,7 +350,7 @@
                                                                 <div class="blog-box">
                                                                     <div class="post-media">
                                                                         <a href="tech-single.html" title="">
-                                                                            <img src="upload/tech_menu_17.jpg" alt="" class="img-fluid">
+                                                                            <img src="{% static 'upload/tech_menu_17.jpg' %}" alt="" class="img-fluid">
                                                                             <div class="hovereffect">
                                                                             </div><!-- end hover -->
                                                                             <span class="menucat">Worldwide</span>
@@ -365,7 +366,7 @@
                                                                 <div class="blog-box">
                                                                     <div class="post-media">
                                                                         <a href="tech-single.html" title="">
-                                                                            <img src="upload/tech_menu_18.jpg" alt="" class="img-fluid">
+                                                                            <img src="{% static 'upload/tech_menu_18.jpg' %}" alt="" class="img-fluid">
                                                                             <div class="hovereffect">
                                                                             </div><!-- end hover -->
                                                                             <span class="menucat">Worldwide</span>
@@ -381,7 +382,7 @@
                                                                 <div class="blog-box">
                                                                     <div class="post-media">
                                                                         <a href="tech-single.html" title="">
-                                                                            <img src="upload/tech_menu_19.jpg" alt="" class="img-fluid">
+                                                                            <img src="{% static 'upload/tech_menu_19.jpg' %}" alt="" class="img-fluid">
                                                                             <div class="hovereffect">
                                                                             </div><!-- end hover -->
                                                                             <span class="menucat">Worldwide</span>
@@ -397,7 +398,7 @@
                                                                 <div class="blog-box">
                                                                     <div class="post-media">
                                                                         <a href="tech-single.html" title="">
-                                                                            <img src="upload/tech_menu_20.jpg" alt="" class="img-fluid">
+                                                                            <img src="{% static 'upload/tech_menu_20.jpg' %}" alt="" class="img-fluid">
                                                                             <div class="hovereffect">
                                                                             </div><!-- end hover -->
                                                                             <span class="menucat">Worldwide</span>
@@ -446,7 +447,7 @@
         </header><!-- end market-header -->
 
         {% block content %}
-        {% end block content %}
+        {% endblock content %}
 
         <footer class="footer">
             <div class="container">
@@ -454,7 +455,7 @@
                     <div class="col-lg-7">
                         <div class="widget">
                             <div class="footer-text text-left">
-                                <a href="index.html"><img src="images/version/tech-footer-logo.png" alt="" class="img-fluid"></a>
+                                <a href="index.html"><img src="{% static 'images/version/tech-footer-logo.png' %}" alt="" class="img-fluid"></a>
                                 <p>Tech Blog is a technology blog, we sharing marketing, news and gadget articles.</p>
                                 <div class="social">
                                     <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>              
@@ -522,10 +523,18 @@
 
     <!-- Core JavaScript
     ================================================== -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/tether.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/tether.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/custom.js' %}"></script>
+    <script>
+		timeline(document.querySelectorAll('.timeline'), {
+			forceVerticalMode: 700,
+			mode: 'horizontal',
+			verticalStartPosition: 'left',
+			visibleItems: 4
+		});
+	</script>
 
 </body>
 </html>

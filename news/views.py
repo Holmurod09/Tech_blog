@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import Gadgets
 
 def home(request):
     return render(request, 'tech-index.html')

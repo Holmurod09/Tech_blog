@@ -41,3 +41,6 @@ class Contatct(models.Model):
 
 
 
+# kwork
+# upwork
+# React Js (Json --> DRF), Vue js =>) -> Android APP
